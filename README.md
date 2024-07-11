@@ -76,7 +76,7 @@ Hardware Required:
  3. Arduino UNO
  4. Four 10k ohm Potentiometer
 >[!NOTE]
->servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V. Additionally, the potentiometer send a value to the board that start from 0 to 1023.
+>servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V. Additionally, the potentiometer send a value to the board that start from 0 to 1023 therefor, we must remap it to start from 0 to 180.
 
 ![Screenshot 2024-07-11 231718](https://github.com/user-attachments/assets/f79b05a7-6134-49be-bc11-9239f6c9e8ff)
 ![Screenshot 2024-07-11 231750](https://github.com/user-attachments/assets/e56b40cc-4d9d-4c94-b14b-fb6f3644d672)
