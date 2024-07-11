@@ -27,7 +27,7 @@ Create an electrical circuit contains 6 servo motors using simulation websites h
 
 
 -----------------------------------------------------------------------
-<code style=" color : yellow ">First I made sweep and knob circuits to understand more how to dell with one servo motor.</code>
+<code style=" color : yellow ">First I made sweep and knob circuits to understand more how to dell with one servo motor. Then I will do the same circuits but with six servo motors</code>
 
 ### Sweep circuit:
 Hardware Required:
