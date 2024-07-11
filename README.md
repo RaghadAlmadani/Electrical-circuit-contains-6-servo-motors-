@@ -38,7 +38,7 @@ Hardware Required:
 ![Screenshot 2024-07-11 132742](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/4290b9ac-d426-443f-bfa3-e83b150a482e)
 Servo motor have 3 colored wires the red wire is power wire and the brown or black is ground wire finally the yellow or orenage wire is a signal wire. I conected the signl wire (the orenage wire) in port 9 because Pulse Width Modulation (~PWM) provides a convenient way to control the position or angle of the servo shaft Therefor, we use when are using servo motor. Moreover, I conected  the red wire to the power 5V and the brown to the ground in the breadboard.
 ![Screenshot 2024-07-11 133238](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/6af360d2-2cb4-40c0-bd2f-aed39fed8249)
-I started the programming by defining a verable called position in the blocks code and let it equal to 0, then I add 2 count blocks (loops) one of them was count up from 0 to 180 and the other is count down form 180 to 0 then I add the rotate servo block and attach it to pin 9 and let it rotate to position value finally I add wait block (delay) and let it wait for 20 millisecond whiches equal to 0.02 second.
+I started the programming by defining a verable called position in the blocks code and let it equal to 0, then I add 2 count blocks (loops) one of them was count up from 0 to 180 and the other is count down form 180 to 0 then I add the rotate servo block and attach it to pin 9 and let it rotate to position value finally I add wait block (delay) and let it wait for 20 millisecond whiches equal to 0.02 second.  Here is the link of the [circuit](https://www.tinkercad.com/things/9QQNlbxfdLT-surprising-inari/editel?sharecode=lC9VaYxA6jU2fZtkLEXeG8DD8-tF6FxE_uv3prxWn6Q)
 
 ### Knob circuit:
 Hardware Required:
@@ -51,7 +51,7 @@ Hardware Required:
 Potentiometer have three pins the midle pin is wiper that must conect to analog pin I conected to A0 pin the two side pins are terminal pins I conected terminal 1 to the ground and terminal 3 to the power. However, servo motor conection is the same as sweep circuit.
 ![Screenshot 2024-07-11 161654](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/1f507326-a8a4-4d21-abf2-0321eb503d54)
 I started to define two varibles potentiometer = the analog pin A0 and output_value is the variable to read the value from the analog pin. Then I used map block to change the values of potentiometer 
- to start at 0 and end at 180 and assined it to output_value. Finally, I add the rotate servo block and attach it to pin 9 and let it rotate to output_value.
+ to start at 0 and end at 180 and assined it to output_value. Finally, I add the rotate servo block and attach it to pin 9 and let it rotate to output_value. Here is the link of the [circuit](https://www.tinkercad.com/things/ddw6430NktS-smashing-rottis-habbi/editel?sharecode=q7akzQ9tq4KS-Zp3zBp0JrAU8Yp_mC8HpW0iAl1gJok)
 
 ### Sweep circuit contains 6 servo motors:
 Hardware Required:
@@ -77,4 +77,6 @@ Hardware Required:
  2. Breadboard
  3. Arduino UNO
  4. Four 10k ohm Potentiometer
-
+![Screenshot 2024-07-11 231718](https://github.com/user-attachments/assets/f79b05a7-6134-49be-bc11-9239f6c9e8ff)
+![Screenshot 2024-07-11 231750](https://github.com/user-attachments/assets/e56b40cc-4d9d-4c94-b14b-fb6f3644d672)
+same as the knob circuit each servo have the potentiometer that move it. Here is the link of the [circuit](https://www.tinkercad.com/things/ej8Jc41Nr5Q-brilliant-duup/editel?sharecode=GrG7I2pHWsLFbWUuAQh5ClteB4skJzNe8yh2e6xc52s)
