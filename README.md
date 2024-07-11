@@ -53,5 +53,19 @@ Potentiometer have three pins the midle pin is wiper that must conect to analog 
 I started to define two varibles potentiometer = the analog pin A0 and output_value is the variable to read the value from the analog pin. Then I used map block to change the values of potentiometer 
  to start at 0 and end at 180 and assined it to output_value. Finally, I add the rotate servo block and attach it to pin 9 and let it rotate to output_value.
 
+### Sweep circuit contains 6 servo motors:
+Hardware Required:
+ 1. six Servo motor :
+>[!NOTE]
+>servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V.
+ 2. Breadboard
+ 3. Arduino UNO
 
+![Screenshot 2024-07-11 223248](https://github.com/user-attachments/assets/68a108b8-61ac-4b60-b15a-c11f2647c1ae)
+> [!CAUTION]
+> Each servo takes from 4.8V to 6V if there are 6 servo motors we have to add external power otherwise the USB port will be rounded even the ardunio uno board may round. However, if we conect it with power supply whos voltage more than 6V it will round the 6 servo motors as shown bellow.
+![Screenshot 2024-07-11 223947](https://github.com/user-attachments/assets/98514013-7491-48a2-9a60-5420ce5bcf36)
+
+![Screenshot 2024-07-11 223202](https://github.com/user-attachments/assets/83472e1f-b9fe-4b36-b97b-52637de755ac)
+same as the sweep circuit with one servo motor but I made every 2 motors to move together. 
 
