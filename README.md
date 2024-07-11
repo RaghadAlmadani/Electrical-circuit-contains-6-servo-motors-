@@ -27,7 +27,7 @@ Create an electrical circuit contains 6 servo motors using simulation websites h
 
 
 -----------------------------------------------------------------------
-First I made sweep and knob circuits to understand more how to dell with one servo motor.
+<code style=" color : yellow ">First I made sweep and knob circuits to understand more how to dell with one servo motor.</code>
 
 ### Sweep circuit:
 Hardware Required:
@@ -40,4 +40,5 @@ Servo motor have 3 colored wires the red wire is power wire and the brown or bla
 ![Screenshot 2024-07-11 133238](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/6af360d2-2cb4-40c0-bd2f-aed39fed8249)
 I started the programming by defining a verable called position in the blocks code then I add 2 count blocks (loops) one of them was count up from 0 to 180 and the other is count down form 180 to 0 then I add the rotate servo block and attach it to pin 9 and let it rotate to position value finally I add wait block (delay) and let it wait for 20 millisecond whiches equal to 0.02 second.
 
+### Knob circuit:
 
