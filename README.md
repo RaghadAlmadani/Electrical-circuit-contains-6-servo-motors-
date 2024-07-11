@@ -29,6 +29,7 @@ Create an electrical circuit contains 6 servo motors using simulation websites h
 -----------------------------------------------------------------------
 First I made sweep and knob circuits to understand more how to dell with one servo motor.
 
-Sweep circuit:![Screenshot 2024-07-11 132742](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/acaabbd7-cb30-480b-b019-75bbe6943845)
-![Screenshot 2024-07-11 132700](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/99cc9e8c-36f6-4516-81a5-ad127e8aea32)
+Sweep circuit:![Screenshot 2024-07-11 132742](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/4290b9ac-d426-443f-bfa3-e83b150a482e)
+![Screenshot 2024-07-11 133238](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/6af360d2-2cb4-40c0-bd2f-aed39fed8249)
+
 
