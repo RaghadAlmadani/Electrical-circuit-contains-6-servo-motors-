@@ -80,3 +80,4 @@ Hardware Required:
 ![Screenshot 2024-07-11 231718](https://github.com/user-attachments/assets/f79b05a7-6134-49be-bc11-9239f6c9e8ff)
 ![Screenshot 2024-07-11 231750](https://github.com/user-attachments/assets/e56b40cc-4d9d-4c94-b14b-fb6f3644d672)
 same as the knob circuit each servo have the potentiometer that move it. Here is the link of the [circuit](https://www.tinkercad.com/things/ej8Jc41Nr5Q-brilliant-duup/editel?sharecode=GrG7I2pHWsLFbWUuAQh5ClteB4skJzNe8yh2e6xc52s)
+
