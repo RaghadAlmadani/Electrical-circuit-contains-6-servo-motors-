@@ -29,7 +29,13 @@ Create an electrical circuit contains 6 servo motors using simulation websites h
 -----------------------------------------------------------------------
 First I made sweep and knob circuits to understand more how to dell with one servo motor.
 
-Sweep circuit:![Screenshot 2024-07-11 132742](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/4290b9ac-d426-443f-bfa3-e83b150a482e)
+### Sweep circuit:
+Hardware Required:
+ 1. Servo motor : servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V.
+ 2. Breadboard
+ 3. Arduino UNO
+
+![Screenshot 2024-07-11 132742](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/4290b9ac-d426-443f-bfa3-e83b150a482e)
 ![Screenshot 2024-07-11 133238](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/6af360d2-2cb4-40c0-bd2f-aed39fed8249)
 
 
