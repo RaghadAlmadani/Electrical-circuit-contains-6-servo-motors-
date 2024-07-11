@@ -55,7 +55,7 @@ I started to define two varibles potentiometer = the analog pin A0 and output_va
 
 ### Sweep circuit contains 6 servo motors:
 Hardware Required:
- 1. six Servo motor :
+ 1. Six Servo motor :
 >[!NOTE]
 >servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V.
  2. Breadboard
@@ -68,4 +68,13 @@ Hardware Required:
 
 ![Screenshot 2024-07-11 223202](https://github.com/user-attachments/assets/83472e1f-b9fe-4b36-b97b-52637de755ac)
 same as the sweep circuit with one servo motor but I made every 2 motors to move together. Here is the link of the [circuit](https://www.tinkercad.com/things/34LVQlcF9ve-dazzling-esboo-amberis/editel?sharecode=KoOVPr19EWMq-lVqSuXAxJN3a5pq68oB5D2N8N5cnxY)
+
+### Knob circuit contains 6 servo motors:
+Hardware Required:
+ 1. Six Servo motor :
+>[!NOTE]
+>servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V.
+ 2. Breadboard
+ 3. Arduino UNO
+ 4. Four 10k ohm Potentiometer
 
