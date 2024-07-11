@@ -67,5 +67,5 @@ Hardware Required:
 ![Screenshot 2024-07-11 223947](https://github.com/user-attachments/assets/98514013-7491-48a2-9a60-5420ce5bcf36)
 
 ![Screenshot 2024-07-11 223202](https://github.com/user-attachments/assets/83472e1f-b9fe-4b36-b97b-52637de755ac)
-same as the sweep circuit with one servo motor but I made every 2 motors to move together. 
+same as the sweep circuit with one servo motor but I made every 2 motors to move together. Here is the link of the [circuit](https://www.tinkercad.com/things/34LVQlcF9ve-dazzling-esboo-amberis/editel?sharecode=KoOVPr19EWMq-lVqSuXAxJN3a5pq68oB5D2N8N5cnxY)
 
