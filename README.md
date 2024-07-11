@@ -38,7 +38,19 @@ Hardware Required:
 ![Screenshot 2024-07-11 132742](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/4290b9ac-d426-443f-bfa3-e83b150a482e)
 Servo motor have 3 colored wires the red wire is power wire and the brown or black is ground wire finally the yellow or orenage wire is a signal wire. I conected the signl wire (the orenage wire) in port 9 because Pulse Width Modulation (~PWM) provides a convenient way to control the position or angle of the servo shaft Therefor, we use when are using servo motor. Moreover, I conected  the red wire to the power 5V and the brown to the ground in the breadboard.
 ![Screenshot 2024-07-11 133238](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/6af360d2-2cb4-40c0-bd2f-aed39fed8249)
-I started the programming by defining a verable called position in the blocks code then I add 2 count blocks (loops) one of them was count up from 0 to 180 and the other is count down form 180 to 0 then I add the rotate servo block and attach it to pin 9 and let it rotate to position value finally I add wait block (delay) and let it wait for 20 millisecond whiches equal to 0.02 second.
+I started the programming by defining a verable called position in the blocks code and let it equal to 0, then I add 2 count blocks (loops) one of them was count up from 0 to 180 and the other is count down form 180 to 0 then I add the rotate servo block and attach it to pin 9 and let it rotate to position value finally I add wait block (delay) and let it wait for 20 millisecond whiches equal to 0.02 second.
 
 ### Knob circuit:
+Hardware Required:
+1. Servo motor : servo motor can rotate from 0 to 180 degree and it typically operate within a voltage range of 4.8V to 6V.
+ 2. Breadboard
+ 3. Arduino UNO
+ 4. 10k ohm Potentiometer : send a value to the board that start from 0 to 1023.
+    
+![Screenshot 2024-07-11 151030](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/268c64e7-f05c-4c1f-b467-e60dcd5d1e4d)
+Potentiometer have three pins the midle pin is wiper that must conect to analog pin I conected to A0 pin the two side pins are terminal pins I conected terminal 1 to the ground and terminal 3 to the power. However, servo motor conection is the same as sweep circuit.
+![Screenshot 2024-07-11 161654](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/1f507326-a8a4-4d21-abf2-0321eb503d54)
+I started to define two varibles potentiometer = the analog pin A0 and output_value is the variable to read the value from the analog pin. 
+
+
 
