@@ -50,7 +50,8 @@ Hardware Required:
 ![Screenshot 2024-07-11 151030](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/268c64e7-f05c-4c1f-b467-e60dcd5d1e4d)
 Potentiometer have three pins the midle pin is wiper that must conect to analog pin I conected to A0 pin the two side pins are terminal pins I conected terminal 1 to the ground and terminal 3 to the power. However, servo motor conection is the same as sweep circuit.
 ![Screenshot 2024-07-11 161654](https://github.com/RaghadAlmadani/Electrical-circuit-contains-6-servo-motors-/assets/173769867/1f507326-a8a4-4d21-abf2-0321eb503d54)
-I started to define two varibles potentiometer = the analog pin A0 and output_value is the variable to read the value from the analog pin. 
+I started to define two varibles potentiometer = the analog pin A0 and output_value is the variable to read the value from the analog pin. Then I used map block to change the values of potentiometer 
+ to start at 0 and end at 180 and assined it to output_value. Finally, I add the rotate servo block and attach it to pin 9 and let it rotate to output_value.
 
 
 
